@@ -12,11 +12,11 @@ A full-stack real-time auction platform built with **React**, **Node.js**, **Exp
 
 ## Tech Stack
 
-**Frontend:** React, Axios, React Router
-**Backend:** Node.js, Express.js, Sequelize ORM
-**Database:** PostgreSQL (Supabase)
-**Cache / Realtime:** Redis (Upstash), WebSockets
-**Authentication:** JWT
+- Backend: Node.js, Express.js, Sequelize ORM
+- Frontend: React, Axios, React Router
+- Database: PostgreSQL (Supabase)
+- Cache / Realtime: Redis (Upstash), WebSockets
+- Authentication: JWT
 
 ## Getting Started
 
@@ -51,9 +51,6 @@ docker run -p 3000:3000 mini-auction-frontend
 
 **Backend (.env):**
 `PORT`, `DATABASE_URL`, `REDIS_URL`, `JWT_SECRET`, `CLIENT_URL`
-
-**Frontend (.env):**
-`REACT_APP_API_URL=http://localhost:3000/api`
 
 ## API Endpoints
 
